@@ -3,7 +3,7 @@
 
 #Begrüßung
 print("Willkommen beim Python-Taschenrechner!")
-print ("-" *40)
+print ("-" * 40)
 
 #Erste Zahl einlesen
 zahl1 = float(input("Gib die erste Zahl ein: "))
@@ -12,13 +12,16 @@ zahl1 = float(input("Gib die erste Zahl ein: "))
 zahl2 = float(input("Gib die zweite Zahl ein: "))
 
 #Berechnungen durchführen
-summe = zahl1 +zahl2
-differenz = zahl1 -zahl2
-produkt= zahl1*zahl2
-quotient = zahl1 /zahl2
+summe = zahl1 + zahl2
+differenz = zahl1 - zahl2
+produkt= zahl1 * zahl2
+quotient = zahl1 / zahl2
 
 #Ergebnisse ausgeben
-print("-"*40)
+print("-" * 40)
 print("Ergebnisse:")
-print(f"(zahl1)+(zahl2)=(summe)")
-print(f"(zahl1)-(zahl2)=(differenz)")
+print(f"(zahl1) + (zahl2) = (summe)")
+print(f"(zahl1) - (zahl2) = (differenz)")
+print(f"(zahl1) * (zahl2) = (quotient)")
+print("-" * 40)
+print("Danke fürs Benutzten!")
