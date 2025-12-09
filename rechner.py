@@ -25,3 +25,10 @@ print(f"(zahl1) - (zahl2) = (differenz)")
 print(f"(zahl1) * (zahl2) = (quotient)")
 print("-" * 40)
 print("Danke fürs Benutzten!")
+
+
+
+
+
+
+
