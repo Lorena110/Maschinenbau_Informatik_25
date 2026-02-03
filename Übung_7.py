@@ -6,6 +6,5 @@ print("-------------------------")
 
 
 for position, werkzeug_id in enumerate(magazin, start=1):
-    status = "Gefunden" if werkzeug_id == {gesuchte_id}
-    else "NEIN"
-    print(f"Position {position}: {gesuchte_id} {status}")
+    status = "Gefunden" if werkzeug_id == gesuchte_id else "NEIN"
+    print(f"Position {position}: {werkzeug_id} {status}")
